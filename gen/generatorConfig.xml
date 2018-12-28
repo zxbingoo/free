@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+	<classPathEntry location="sqljdbc4-4.0.jar" />
+
+    <context id="SqlServerTables" targetRuntime="MyBatis3">
+        <commentGenerator>
+            <property name="suppressAllComments" value="true"/>
+        </commentGenerator>
+        <!-- 数据库连接 -->
+        <!--<jdbcConnection driverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver"-->
+                        <!--connectionURL="jdbc:sqlserver://219.238.238.120;databaseName=askdata5;integratedSecurity=false;"-->
+                        <!--userId="ask_test"-->
+                        <!--password="www.39.net">-->
+        <!--</jdbcConnection>-->
+        <jdbcConnection driverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+        connectionURL="jdbc:sqlserver://219.238.238.120;databaseName=askdata4_20160505;integratedSecurity=false;"
+        userId="ask_test"
+        password="www.39.net">
+        </jdbcConnection>
+
+        <!--<jdbcConnection driverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver"-->
+                        <!--connectionURL="jdbc:sqlserver://219.238.238.120:1322;databaseName=Askcenter;integratedSecurity=false;"-->
+                        <!--userId="ask_test"-->
+                        <!--password="www.39.net">-->
+        <!--</jdbcConnection>-->
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="false"/>
+        </javaTypeResolver>
+        <!-- 实体 -->
+        <javaModelGenerator targetPackage="com.ask39.consumer.domain.askdata4" targetProject="../src/main/java">
+            <property name="enableSubPackages" value="true"/>
+            <property name="trimStrings" value="true"/>
+        </javaModelGenerator>
+        <!-- mapper文件 -->
+        <sqlMapGenerator targetPackage="sqlmap/askdata4" targetProject="../src/main/resources">
+            <property name="enableSubPackages" value="true"/>
+        </sqlMapGenerator>
+        <!-- mapper接口 -->
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.ask39.consumer.data.askdata4" targetProject="../src/main/java">
+            <property name="enableSubPackages" value="true"/>
+        </javaClientGenerator>
+        <!-- tableName表名，domainObjectName实体名 -->
+        <!--<table tableName="AuthorityTopicPool" domainObjectName="AuthorityTopicPool">-->
+
+        <!--</table>-->
+        <!--<table tableName="AudioTopic" domainObjectName="AudioTopic">-->
+            <!--<generatedKey column="tid" sqlStatement="SqlServer" identity="true"/>-->
+        <!--</table>-->
+        <!--<table tableName="MemberType" domainObjectName="MemberType">-->
+        <!--<generatedKey column="id" sqlStatement="SqlServer" identity="true"/>-->
+        <!--</table>-->
+        <!--<table tableName="SYS_DictTypeView" domainObjectName="SysDictTypeView">-->
+        <!--</table>-->
+        <!--<table tableName="AudioYykMsgSend" domainObjectName="AudioYykMsgSend">-->
+        <!--<generatedKey column="id" sqlStatement="SqlServer" identity="true"/>-->
+        <!--</table>-->
+        <!--<table tableName="AuthorityDoctor" domainObjectName="AuthorityDoctor">-->
+        <!--</table>-->
+        <!--<table tableName="AuthorityTopic" domainObjectName="AuthorityTopic">-->
+        <!--</table>-->
+        <!--<table tableName="AuthArtificialLog" domainObjectName="AuthArtificialLog">-->
+        <!--<generatedKey column="id" sqlStatement="SqlServer" identity="true"/>-->
+        <!--</table>-->
+        <!--<table tableName="AuthArtificialTopic" domainObjectName="AuthArtificialTopic">-->
+        <!--<generatedKey column="id" sqlStatement="SqlServer" identity="true"/>-->
+        <!--</table>-->
+        <!--<table domainObjectName="AuthArtificialTopic" schema="" tableName="AuthArtificialTopic"></table>-->
+        <table tableName="AuthorityTopic" domainObjectName="AuthorityTopic">
+        <!--<generatedKey column="id" sqlStatement="SqlServer" identity="true"/>-->
+        </table>
+    </context>
+
+</generatorConfiguration>

@@ -2,221 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f35bf197-32a0-4f73-a182-0e6b81307f91" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../MQApi/MQApi.csproj.user" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/MQApi.nuspec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/file/CheckImageRequest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/file/CheckImageResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/file/FileService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/file/SaveImageRequest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/file/SaveImageResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/PageInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/ZResult.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/ZResultBytes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/ZResultCode.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/ZResultI32.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/ZResultI32List.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/ZResultI64.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/ZResultI64List.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/ZResultStr.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/ZResultStrList.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/audit/AuditCheckFlag.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/audit/AuditCommonCheckRequest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/audit/AuditCommonFetchRequest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/audit/AuditCommonPushRequest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/audit/AuditCommonWorker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/audit/AuditData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/audit/AuditDataResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/doctorcenter/AppActivityTaskItem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/doctorcenter/AppActivityTaskResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/doctorcenter/AppManageRuleItem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/doctorcenter/AppManageRuleResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/doctorcenter/DoctorBaseInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/doctorcenter/DoctorBaseInfoResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/doctorcenter/DoctorCenterWorker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/doctorcenter/DoctorInfoStateResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/doctorcenter/DoctorNewInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/doctorcenter/DoctorWorker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/doctorcenter/MyMsgItem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/doctorcenter/MyMsgResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/doctorcenter/PushStateResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/doctorcenter/SystemMsgItem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/doctorcenter/SystemMsgReponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/doctorcenter/ToMemberTopicFailedLog.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/doctorcenter/XgTokenResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/doctormission/ActiveMissionInfoResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/doctormission/AnswerItem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/doctormission/DoctorMissionCanplayEnum.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/doctormission/DoctorMissionCompletionEnum.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/doctormission/DoctorMissionInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/doctormission/DoctorMissionListResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/doctormission/DoctorMissionWorker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/doctormission/OptionInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/doctormission/QaMissionInfoResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/doctormission/QuestionInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/doctormission/SignResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/doctormission/SubmitAnswerRequest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/doctormission/SubmitAnswerResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/doctorwork/DoctorStatResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/doctorwork/DoctorWorkWorker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/doctorwork/PointsDetail.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/doctorwork/QuickReplyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/doctorwork/QuickReplyListResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/doctorwork/ScoreDetailResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/doctorwork/ScoreLog.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/doctorwork/TopicReplyItem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/doctorwork/TopicReplyResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/helpertools/ForumHelperWorker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/helpertools/ForumLess.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/helpertools/ForumLessResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/helpertools/MatchForumTagRequest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/helpertools/MatchForumTagResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/helpertools/StaticCacheHelperWorker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/helpertools/TagLess.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/helpertools/TopicHelperWorker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/log/LoggerWorker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/member/AddPointsDetailResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/member/CalcPointsRequestFlag.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/member/CalcPointsResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/member/MemberBaseInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/member/MemberBaseInfoResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/member/MemberPointsDetail.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/member/MemberPointsDetailResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/member/MemberPointsNonUsedResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/member/MemberPointsRequest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/member/MemberPointsTotalResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/member/MemberPointsWorker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/member/MemberWorker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/member/SearchPointsDetailRequest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/member/ShortUserInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/member/ShortUserInfoResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/message/DoctorApp2_0Worker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/message/SMSWorker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/topic/AddComplainRequest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/topic/AddQuestionRequest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/topic/AddQuestionResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/topic/AddReplyRequest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/topic/AddReplyResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/topic/AddTopicImageInfoRequest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/topic/CheckCopyWorker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/topic/DealAfterAddTopicRequest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/topic/DelReplyRequest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/topic/InquireReplyRequest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/topic/InquireReplyResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/topic/InquireWorker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/topic/IssuePostBase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/topic/IssuePostBaseResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/topic/QuantityAuditRequest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/topic/QuantityAuditWorker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/topic/ReViewReplyLog.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/topic/ReplyWorker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/topic/RewardBannerRequest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/topic/SetReplyBestRequest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/topic/TopicBaseInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/topic/TopicBaseInfoReponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/topic/TopicROWorker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/topic/TopicWorker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/topic/dealAfterInquireRequest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/topiccaiji/AddInquiryReq.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/topiccaiji/AddReplyReq.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/topiccaiji/AddTopicReq.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/topiccaiji/DeleteReplyReq.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/topiccaiji/UpdateInquiryReq.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/topiccaiji/UpdateReplyReq.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/topiccaiji/UpdateTopicReq.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/wechat/AttachTagReq.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/wechat/RequestXmlReq.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/wechat/WechatV2Worker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/wechat/WechatWorker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/wechat/WxAppMessageRequest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/wechat/WxAppWorker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/workbench/BrandTaskResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/workbench/ComplainReq.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/workbench/DoctorDailyOverall.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/workbench/DoctorLiveCheckRequest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/workbench/DoctorStatResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/workbench/GroupDoctorResp.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/workbench/InquireItemInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/workbench/InquireItemInfoRequest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/workbench/InquireItemInfoResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/workbench/InvitationRequest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/workbench/InvitationResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/workbench/RewardDoctorInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/workbench/RewardDoctorItem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/workbench/RewardDoctorResp.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/workbench/TopicPoolCheckRequest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/workbench/TopicPoolItemInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/workbench/TopicPoolItemInfoRequest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/workbench/TopicPoolItemInfoResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/workbench/TopicScoreReq.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/com/ask39/mq/api/workbench/TopicScoreResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MQApi/packages.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NetMQWorkers.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Packages.dgml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TopicsWorkers/CheckCopyWorkerImpl.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TopicsWorkers/Common/AppSettings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TopicsWorkers/Common/DoctorModify.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TopicsWorkers/Common/MyDoctorProxy.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TopicsWorkers/DBHelper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TopicsWorkers/DoctorCenter/DoctorCenterWorkerImpl.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TopicsWorkers/DoctorWork/DoctorWorkWorkerImpl.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TopicsWorkers/DoctorWork/MonthAssess/DoctorStatTools.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TopicsWorkers/DoctorWork/MonthAssess/DoctorViewModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TopicsWorkers/DoctorWork/QuickReplyList/QucikReplyAppV1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TopicsWorkers/DoctorWorkerImpl.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TopicsWorkers/EnumHelper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TopicsWorkers/InquireWorkerImpl.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TopicsWorkers/LogHelper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TopicsWorkers/Member/Models/MemberPointsDetail.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TopicsWorkers/MemberWorkerImpl.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TopicsWorkers/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TopicsWorkers/QuantityAuditWorkerImpl.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TopicsWorkers/TopicWorkerImpl.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TopicsWorkers/Wechat/WechatLogDalV2.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TopicsWorkers/Wechat/WechatWorkerImpl.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TopicsWorkers/Workers.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TopicsWorkers/Workers.csproj.user" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TopicsWorkers/packages.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WorkerStarter/App.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WorkerStarter/NLog.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WorkerStarter/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WorkerStarter/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WorkerStarter/WorkerStarter.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WorkerStarter/WorkerStarter.csproj.user" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WorkerStarter/packages.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WorkerStarterService/App.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WorkerStarterService/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WorkerStarterService/ProjectInstaller.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WorkerStarterService/ProjectInstaller.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WorkerStarterService/ProjectInstaller.resx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WorkerStarterService/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WorkerStarterService/Service1.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WorkerStarterService/Service1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WorkerStarterService/WorkerStarterService.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WorkerStarterService/WorkerStarterService.csproj.user" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WorkerStarterService/卸载.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WorkerStarterService/安装.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ask_mq_api_def/audit.thrift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ask_mq_api_def/base.thrift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ask_mq_api_def/doctorcenter.thrift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ask_mq_api_def/doctormission.thrift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ask_mq_api_def/doctorwork.thrift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ask_mq_api_def/file.thrift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ask_mq_api_def/genall" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ask_mq_api_def/helpertools.thrift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ask_mq_api_def/log.thrift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ask_mq_api_def/message.thrift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ask_mq_api_def/topics.thrift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ask_mq_api_def/wechat.thrift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ask_mq_api_def/wxApp.thrift" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gen" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mq_api_java/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/app.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/packages.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/test.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/test.csproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -259,14 +46,22 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1463250472">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="100" column="18" lean-forward="true" selection-start-line="100" selection-start-column="18" selection-end-line="100" selection-end-column="18" />
+            <state relative-caret-position="332">
+              <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
             </state>
           </provider>
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
@@ -275,12 +70,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zhu/free/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
+            <state relative-caret-position="330">
               <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#278#279#0" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -296,7 +91,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -343,7 +138,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -362,17 +156,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="free" type="b2602c69:ProjectViewProjectNode" />
-              <item name="free" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -384,7 +172,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -423,32 +211,23 @@
       <option name="presentableId" value="Default" />
       <updated>1545969546553</updated>
       <workItem from="1545969548524" duration="4521000" />
+      <workItem from="1545980517808" duration="79000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4521000" />
+    <option name="totallyTimeSpent" value="4600000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="JRebel" side_tool="true" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Designer" />
-      <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17857143" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18017058" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="JRebel Executor" />
-      <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.30944625" />
+      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
@@ -456,14 +235,23 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" weight="0.32995737" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.30944625" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JRebel Executor" order="14" />
+      <window_info anchor="bottom" id="JRebel Console" order="15" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Bean Validation" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,29 +260,34 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/free.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zhu/free/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="330">
           <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="100" column="18" lean-forward="true" selection-start-line="100" selection-start-column="18" selection-end-line="100" selection-end-column="18" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
   </component>
   <component name="masterDetails">
