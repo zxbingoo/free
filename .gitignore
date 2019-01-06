@@ -24,6 +24,7 @@ out
 node_modules
 *.log
 nohup.out
+dist
 build
 
 package-lock.json
