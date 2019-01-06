@@ -25,8 +25,3 @@ var server = app.listen(2000, function() {
   var port = server.address().port;
   console.log('Open http://localhost:%s', port);
 });
-
-作者：chardlau
-链接：https://www.jianshu.com/p/9b0908087ed3
-來源：简书
-简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
