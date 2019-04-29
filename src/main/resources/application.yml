@@ -9,9 +9,9 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://182.61.60.30:3306/free?charset=utf8mb4&useSSL=false
-    username: root
-    password: root
+    url: ${spring.datasource1.url}
+    username: ${datasource1.username}
+    password: ${datasource1.password}
     # 使用druid数据源
     type: com.alibaba.druid.pool.DruidDataSource
     filters: stat
