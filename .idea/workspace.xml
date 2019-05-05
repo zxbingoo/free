@@ -1,32 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f35bf197-32a0-4f73-a182-0e6b81307f91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/zhu/free/consumer/config/DubboConsumerConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/zhu/free/provider/config/DubboProviderConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider/src/main/resources/dubbo-provider.properties" afterDir="false" />
+    <list default="true" id="f35bf197-32a0-4f73-a182-0e6b81307f91" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/rebel-remote.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/zhu/free/consumer/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/dubbo-consumer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/rebel-remote.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/zhu/free/provider/config/EmbeddedZooKeeper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/zhu/free/provider/service/IRegisisterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/zhu/free/provider/service/impl/RegisisterServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/resources/rebel-remote.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/resources/rebel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config_fillters/filters-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config_fillters/filters-test.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/zhu/free/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/test/java/com/zhu/free/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config_fillters/filters-product.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config_fillters/filters-test.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/zhu/free/consumer/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/zhu/free/consumer/ConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/zhu/free/consumer/config/DubboConsumerConfiguration.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/test/java/com/zhu/free/consumer/ConsumerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/zhu/free/provider/ProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/com/zhu/free/provider/ProviderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/zhu/free/provider/config/DubboProviderConfiguration.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/provider/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhu/free/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/main/resources/dubbo-provider.properties" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/resources/dubbo-provider.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/test/java/com/zhu/free/provider/ProviderApplicationTests.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,6 +42,7 @@
     <ignored path="$PROJECT_DIR$/common/target/" />
     <ignored path="$PROJECT_DIR$/consumer/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,50 +145,50 @@
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="free" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="ProviderApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/zhu/free/provider/ProviderApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="47">
+              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/provider/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/provider/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="107" column="21" lean-forward="true" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="21" />
+            <state relative-caret-position="853">
+              <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
             </state>
           </provider>
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/zhu/free/provider/config/DubboProviderConfiguration.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="2">
+              <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/zhu/free/consumer/config/DubboConsumerConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
-              <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consumer/pom.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="1404">
-              <caret line="54" column="43" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
     </leaf>
@@ -187,6 +196,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -215,17 +225,26 @@
         <option value="$PROJECT_DIR$/frontend/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/provider/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/config_fillters/filters-test.properties" />
+        <option value="$PROJECT_DIR$/consumer/src/main/java/com/zhu/free/consumer/config/DubboConsumerConfiguration.java" />
+        <option value="$PROJECT_DIR$/consumer/src/main/resources/dubbo-consumer.properties" />
+        <option value="$PROJECT_DIR$/provider/src/main/java/com/zhu/free/provider/config/DubboProviderConfiguration.java" />
+        <option value="$PROJECT_DIR$/provider/src/main/java/com/zhu/free/provider/config/EmbeddedZooKeeper.java" />
+        <option value="$PROJECT_DIR$/provider/src/main/java/com/zhu/free/provider/DubboProviderConfiguration.java" />
+        <option value="$PROJECT_DIR$/provider/src/main/java/com/zhu/free/provider/serviev/IRegisisterService.java" />
+        <option value="$PROJECT_DIR$/provider/src/main/java/com/zhu/free/provider/serviev/impl/RegisisterServiceImpl.java" />
+        <option value="$PROJECT_DIR$/provider/src/main/java/com/zhu/free/provider/service/IRegisisterService.java" />
         <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/provider/src/main/java/com/zhu/free/provider/service/impl/RegisisterServiceImpl.java" />
+        <option value="$PROJECT_DIR$/consumer/src/main/java/com/zhu/free/consumer/controller/TestController.java" />
         <option value="$PROJECT_DIR$/provider/src/main/resources/dubbo-provider.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/provider/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/provider/pom.xml" />
         <option value="$PROJECT_DIR$/provider/src/main/java/com/zhu/free/provider/ProviderApplication.java" />
         <option value="$PROJECT_DIR$/consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/consumer/src/main/java/com/zhu/free/consumer/config/DubboConsumerConfiguration.java" />
-        <option value="$PROJECT_DIR$/consumer/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/config_fillters/filters-test.properties" />
-        <option value="$PROJECT_DIR$/provider/pom.xml" />
-        <option value="$PROJECT_DIR$/provider/src/main/java/com/zhu/free/provider/config/DubboProviderConfiguration.java" />
+        <option value="$PROJECT_DIR$/consumer/src/main/java/com/zhu/free/consumer/ConsumerApplication.java" />
       </list>
     </option>
   </component>
@@ -247,21 +266,12 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="consumer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="free" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="consumer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="free" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
@@ -275,11 +285,11 @@
       <path value="$PROJECT_DIR$/frontend/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="64" />
+    <option name="y" value="23" />
+    <option name="width" value="1376" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -288,7 +298,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -299,51 +308,6 @@
             <path>
               <item name="free" type="b2602c69:ProjectViewProjectNode" />
               <item name="free" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="free" type="b2602c69:ProjectViewProjectNode" />
-              <item name="free" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="free" type="b2602c69:ProjectViewProjectNode" />
-              <item name="free" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="free" type="b2602c69:ProjectViewProjectNode" />
-              <item name="free" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="free" type="b2602c69:ProjectViewProjectNode" />
-              <item name="free" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="free" type="b2602c69:ProjectViewProjectNode" />
-              <item name="free" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="free" type="b2602c69:ProjectViewProjectNode" />
-              <item name="free" type="462c0819:PsiDirectoryNode" />
               <item name="provider" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -385,12 +349,42 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="provider" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="free" type="b2602c69:ProjectViewProjectNode" />
+              <item name="free" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="free" type="b2602c69:ProjectViewProjectNode" />
+              <item name="free" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="free" type="b2602c69:ProjectViewProjectNode" />
+              <item name="free" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -407,19 +401,38 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.RemoteServersConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\39project\free" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zhu.free.provider.config" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.zhu.free.provider" />
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/consumer/src/main/resources" />
+      <recent name="$PROJECT_DIR$/provider/src/main/resources" />
       <recent name="D:\self\free" />
       <recent name="D:\self\free\config_fillters" />
       <recent name="D:\self\free\gen" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.zhu.free.provider.serviev.impl" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/common" />
+      <recent name="E:\39project\free" />
+    </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -427,26 +440,15 @@
         </RuleState>
         <RuleState>
           <option name="name" value="StatusDashboardGroupingRule" />
+          <option name="enabled" value="false" />
         </RuleState>
       </list>
     </option>
+    <option name="contentProportion" value="0.17191097" />
   </component>
   <component name="RunManager" selected="Spring Boot.ConsumerApplication">
-    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="consumer" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhu.free.consumer.ConsumerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="free" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhu.free.Main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="DubboProviderConfiguration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhu.free.provider.DubboProviderConfiguration" />
       <module name="provider" />
       <extension name="coverage">
         <pattern>
@@ -454,19 +456,23 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+    </configuration>
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhu.free.consumer.ConsumerApplication" />
+    </configuration>
+    <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="provider" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhu.free.provider.ProviderApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.Main" />
       <item itemvalue="Spring Boot.ConsumerApplication" />
       <item itemvalue="Spring Boot.ProviderApplication" />
+      <item itemvalue="Application.DubboProviderConfiguration" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ProviderApplication" />
+        <item itemvalue="Application.DubboProviderConfiguration" />
       </list>
     </recent_temporary>
   </component>
@@ -497,6 +503,19 @@
       <workItem from="1556544142302" duration="2684000" />
       <workItem from="1556585715100" duration="15939000" />
       <workItem from="1556616693109" duration="1852000" />
+      <workItem from="1556867778233" duration="53000" />
+      <workItem from="1556867834582" duration="126000" />
+      <workItem from="1556867964218" duration="397000" />
+      <workItem from="1556868625655" duration="1959000" />
+      <workItem from="1556870772220" duration="2211000" />
+      <workItem from="1556931064370" duration="1094000" />
+      <workItem from="1556939255373" duration="1850000" />
+      <workItem from="1556941117260" duration="8000" />
+      <workItem from="1556953769222" duration="4737000" />
+      <workItem from="1556958532372" duration="796000" />
+      <workItem from="1556959335656" duration="12209000" />
+      <workItem from="1557064235007" duration="3156000" />
+      <workItem from="1557067816290" duration="1727000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1545980719475</created>
@@ -551,85 +570,87 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51381000" />
+    <option name="totallyTimeSpent" value="82212000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="64" y="23" width="1376" height="877" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25159913" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="JRebel" order="2" side_tool="true" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Designer" order="7" />
-      <window_info id="Web" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2646421" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.30944625" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49928468" weight="0.32938075" />
-      <window_info anchor="bottom" id="JRebel Executor" order="14" />
-      <window_info anchor="bottom" id="JRebel Console" order="15" sideWeight="0.5007153" side_tool="true" weight="0.3083605" />
-      <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32995737" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="JRebel Console" order="15" sideWeight="0.50149924" side_tool="true" weight="0.32806325" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.3328336" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JRebel Executor" order="14" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Designer" order="7" />
       <window_info anchor="right" id="Database" order="7" />
+      <window_info id="Structure" order="1" sideWeight="0.5019608" side_tool="true" weight="0.25112444" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="5" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3992095" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3083004" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32938075" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.49850076" weight="0.5428195" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49928468" weight="0.32938075" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32806325" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32806325" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.26350462" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49803922" visible="true" weight="0.27736133" />
+      <window_info id="Web" order="8" sideWeight="0.5019608" side_tool="true" weight="0.25112444" />
+      <window_info id="JRebel" order="2" sideWeight="0.5019608" side_tool="true" weight="0.25112444" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5019608" side_tool="true" weight="0.25112444" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1391258" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3992095" />
+      <window_info id="Designer" order="7" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="JRebel" order="2" sideWeight="0.5019608" side_tool="true" weight="0.25112444" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32806325" />
       <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32806325" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Designer" order="7" />
-      <window_info id="Web" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info id="Favorites" order="6" sideWeight="0.5019608" side_tool="true" weight="0.25112444" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.26350462" />
+      <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.30944625" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3083004" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32938075" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49928468" weight="0.32938075" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.3328336" />
       <window_info anchor="bottom" id="JRebel Executor" order="14" />
-      <window_info anchor="bottom" id="JRebel Console" order="15" sideWeight="0.5007153" side_tool="true" weight="0.3083605" />
-      <window_info anchor="bottom" id="Docker" order="16" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32995737" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49803922" visible="true" weight="0.26986507" />
+      <window_info anchor="bottom" id="JRebel Console" order="15" sideWeight="0.50074965" side_tool="true" weight="0.32806325" />
       <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Web" order="8" sideWeight="0.5019608" side_tool="true" weight="0.25112444" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Structure" order="1" sideWeight="0.5019608" side_tool="true" weight="0.25112444" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="bottom" id="Run Dashboard" order="17" sideWeight="0.49925038" visible="true" weight="0.5072464" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -650,40 +671,26 @@
     <MESSAGE value="集成分布式简单架构" />
     <option name="LAST_COMMIT_MESSAGE" value="集成分布式简单架构" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="21" />
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>context.containsBean(&quot;RegisisterServiceImpl&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>context.containsBean(&quot;IRegisisterService&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/free.iml" />
-    <entry file="file://$PROJECT_DIR$/fronted/node_modules/webpack/bin/webpack.js" />
-    <entry file="file://$PROJECT_DIR$/gen/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fronted/package.json" />
-    <entry file="file://$PROJECT_DIR$/fronted/webpack.config.js" />
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-data-jpa/2.0.5.RELEASE/spring-boot-starter-data-jpa-2.0.5.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="92" column="20" lean-forward="true" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/mybatis/spring/boot/mybatis-spring-boot-starter/1.3.2/mybatis-spring-boot-starter-1.3.2.pom" />
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-web/2.0.5.RELEASE/spring-boot-starter-web-2.0.5.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1783" />
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.0.5.RELEASE/spring-boot-starter-parent-2.0.5.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front/yarn.lock" />
     <entry file="file://$PROJECT_DIR$/frontend/scripts/build.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -701,11 +708,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logs/free.log.%d{yyyy-MM-dd}">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135035" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/free.log.%d{yyyy-MM-dd}" />
     <entry file="file://$PROJECT_DIR$/frontend/src/serviceWorker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
@@ -719,9 +722,7 @@
     <entry file="file://$PROJECT_DIR$/frontend/src/App.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/config_fillters/filters-product.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/config_fillters/filters-product.properties" />
     <entry file="file://$PROJECT_DIR$/consumer/mvnw" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
       <provider selected="true" editor-type-id="text-editor">
@@ -730,10 +731,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/provider/provider.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/provider/provider.iml" />
     <entry file="file://$MAVEN_REPOSITORY$/org/slf4j/slf4j-log4j12/1.7.21/slf4j-log4j12-1.7.21.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -758,105 +756,258 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/provider/target/classes/application.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/zhu/free/resources.java" />
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/zhu/free/App.java" />
+    <entry file="file://$PROJECT_DIR$/consumer/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/test/java/com/zhu/free/AppTest.java" />
+    <entry file="uml://MAVEN/com.zhu.free:consumer:1.0.0">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.zhu.free:consumer:1.0.0</OriginalElement>
+          <nodes>
+            <node x="" y="">com.zhu.free:consumer:1.0.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-dependencies:pom:2.1.4.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.4.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot:jar:2.1.4.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot:jar:2.1.4.RELEASE/org.springframework:spring-context:jar:5.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.1.4.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.4.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.4.RELEASE/org.springframework:spring-core:jar:5.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.4.RELEASE/org.springframework:spring-core:jar:5.1.6.RELEASE/org.springframework:spring-jcl:jar:5.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.4.RELEASE/org.yaml:snakeyaml:jar:1.23</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.4.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.4.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.8</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.4.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.8/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.4.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.8/com.fasterxml.jackson.core:jackson-core:jar:2.9.8</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.4.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.8</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.4.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.8</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.4.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.8</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.4.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.4.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.17</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.4.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:9.0.17</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.4.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.17</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.16.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.16.Final/javax.validation:validation-api:jar:2.0.1.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.16.Final/org.jboss.logging:jboss-logging:jar:3.3.2.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.16.Final/com.fasterxml:classmate:jar:1.3.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.springframework:spring-web:jar:5.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.springframework:spring-web:jar:5.1.6.RELEASE/org.springframework:spring-beans:jar:5.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.springframework:spring-webmvc:jar:5.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.springframework:spring-webmvc:jar:5.1.6.RELEASE/org.springframework:spring-aop:jar:5.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.springframework:spring-webmvc:jar:5.1.6.RELEASE/org.springframework:spring-context:jar:4.3.16.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.4.RELEASE/org.springframework:spring-webmvc:jar:5.1.6.RELEASE/org.springframework:spring-expression:jar:5.1.6.RELEASE</node>
+            <node x="" y="">com.zhu.free:common:jar:0.0.1-SNAPSHOT</node>
+            <node x="" y="">com.zhu.free:common:jar:0.0.1-SNAPSHOT/com.alibaba:fastjson:jar:1.2.54</node>
+            <node x="" y="">org.springframework.boot:spring-boot-configuration-processor:jar:2.1.4.RELEASE</node>
+            <node x="" y="">org.apache.dubbo:dubbo:jar:2.7.1</node>
+            <node x="" y="">org.apache.dubbo:dubbo:jar:2.7.1/org.springframework:spring-context:jar:4.3.16.RELEASE</node>
+            <node x="" y="">org.apache.dubbo:dubbo:jar:2.7.1/org.springframework:spring-context:jar:4.3.16.RELEASE/org.springframework:spring-aop:jar:4.3.16.RELEASE</node>
+            <node x="" y="">org.apache.dubbo:dubbo:jar:2.7.1/org.springframework:spring-context:jar:4.3.16.RELEASE/org.springframework:spring-beans:jar:4.3.16.RELEASE</node>
+            <node x="" y="">org.apache.dubbo:dubbo:jar:2.7.1/org.springframework:spring-context:jar:4.3.16.RELEASE/org.springframework:spring-core:jar:4.3.16.RELEASE</node>
+            <node x="" y="">org.apache.dubbo:dubbo:jar:2.7.1/org.springframework:spring-context:jar:4.3.16.RELEASE/org.springframework:spring-expression:jar:4.3.16.RELEASE</node>
+            <node x="" y="">org.apache.dubbo:dubbo:jar:2.7.1/org.javassist:javassist:jar:3.20.0-GA</node>
+            <node x="" y="">org.apache.dubbo:dubbo:jar:2.7.1/io.netty:netty-all:jar:4.1.25.Final</node>
+            <node x="" y="">org.apache.dubbo:dubbo:jar:2.7.1/com.google.code.gson:gson:jar:2.8.5</node>
+            <node x="" y="">org.apache.dubbo:dubbo:jar:2.7.1/org.yaml:snakeyaml:jar:1.20</node>
+            <node x="" y="">org.apache.zookeeper:zookeeper:jar:3.3.3</node>
+            <node x="" y="">org.apache.zookeeper:zookeeper:jar:3.3.3/jline:jline:jar:0.9.94</node>
+            <node x="" y="">org.apache.zookeeper:zookeeper:jar:3.3.3/jline:jline:jar:0.9.94/junit:junit:jar:3.8.1</node>
+            <node x="" y="">com.github.sgroschupf:zkclient:jar:0.1</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8783960720130932" x="1518.0" y="321.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.16.RELEASE/spring-context-4.3.16.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="678">
+          <caret line="136" column="18" selection-start-line="136" selection-start-column="18" selection-end-line="136" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.1/dubbo-2.7.1.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="422" column="40" selection-start-line="422" selection-start-column="40" selection-end-line="422" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config_fillters/filters-test.properties" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.16.RELEASE/spring-context-4.3.16.RELEASE.jar!/org/springframework/context/event/GenericApplicationListenerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.3.RELEASE/spring-boot-autoconfigure-2.1.3.RELEASE.jar!/org/springframework/boot/autoconfigure/EnableAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider/src/test/java/com/zhu/free/provider/ProviderApplicationTests.java" />
+    <entry file="file://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.3.RELEASE/spring-boot-2.1.3.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="163" selection-start-line="163" selection-end-line="163" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/zhu/free/provider/DubboProviderConfiguration.java" />
     <entry file="file://$PROJECT_DIR$/common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        <state relative-caret-position="273">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/zhu/free/consumer/config/DubboConsumerConfiguration.java" />
+    <entry file="file://$PROJECT_DIR$/provider/src/main/resources/rebel.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/zhu/free/provider/ProviderApplication.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/dubbo/dubbo/2.7.1/dubbo-2.7.1.jar!/org/apache/dubbo/config/annotation/Service.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        <state relative-caret-position="53">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config_fillters/filters-test.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.5.RELEASE/spring-context-5.1.5.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        <state relative-caret-position="2058">
+          <caret line="643" lean-forward="true" selection-start-line="643" selection-end-line="643" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/provider/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/zhu/free/provider/config/EmbeddedZooKeeper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="120">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/dubbo-consumer.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/provider/src/main/resources/dubbo-provider.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        <state relative-caret-position="63">
+          <caret line="3" column="47" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/provider/target/classes/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/consumer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+        <state relative-caret-position="172">
+          <caret line="42" column="21" lean-forward="true" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/zhu/free/consumer/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/zhu/free/provider/service/impl/RegisisterServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/zhu/free/provider/service/IRegisisterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/zhu/free/consumer/ConsumerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="145">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/zhu/free/provider/ProviderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/pom.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="1404">
-          <caret line="54" column="43" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
+    <entry file="file://$PROJECT_DIR$/provider/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/provider/pom.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="107" column="21" lean-forward="true" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="21" />
+        <state relative-caret-position="2">
+          <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/zhu/free/provider/config/DubboProviderConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/provider/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="853">
+          <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/zhu/free/consumer/config/DubboConsumerConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
   </component>
   <component name="masterDetails">
@@ -887,6 +1038,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>lombok-1.16.6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -910,7 +1062,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>provider</last-edited>
+          <last-edited>common</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -946,5 +1098,9 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="package -P test" />
   </component>
 </project>

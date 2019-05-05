@@ -5,83 +5,102 @@
     <parent>
         <groupId>com.zhu.free</groupId>
         <artifactId>free</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>${reversion}</version>
     </parent>
 
     <groupId>com.zhu.free</groupId>
     <artifactId>consumer</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <name>consumer</name>
-    <description>Demo project for Spring Boot</description>
 
     <properties>
         <java.version>1.8</java.version>
-        <dubbo.version>2.7.1</dubbo.version>
+
     </properties>
 
     <dependencies>
+        <!-- Spring Boot dependencies -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.springframework.boot</groupId>
-                    <artifactId>spring-boot-starter-logging</artifactId>
-                </exclusion>
-            </exclusions>
+            <artifactId>spring-boot-starter</artifactId>
+            <optional>true</optional>
         </dependency>
 
         <dependency>
             <groupId>com.zhu.free</groupId>
             <artifactId>common</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>${reversion}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.zhu.free</groupId>
+            <artifactId>provider</artifactId>
+            <version>${reversion}</version>
         </dependency>
 
-        <!--导入配置文件处理器，配置文件进行绑定就会有提示-->
+        <!-- Spring Boot dependencies -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-configuration-processor</artifactId>
-            <optional>true</optional>
+            <artifactId>spring-boot-starter</artifactId>
         </dependency>
 
-        <!--dubbo以及zk引入-->
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-spring-boot-starter</artifactId>
+            <version>${dubbo.version}</version>
+        </dependency>
+
         <dependency>
             <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo</artifactId>
+        </dependency>
+
+        <!-- Zookeeper dependencies -->
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-dependencies-zookeeper</artifactId>
             <version>${dubbo.version}</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>spring</artifactId>
-                    <groupId>org.springframework</groupId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.jboss.netty</groupId>
-                    <artifactId>netty</artifactId>
-                </exclusion>
-            </exclusions>
+            <type>pom</type>
         </dependency>
-        <dependency>
-            <groupId>org.apache.zookeeper</groupId>
-            <artifactId>zookeeper</artifactId>
-            <version>3.3.3</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>log4j</artifactId>
-                    <groupId>log4j</groupId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        <dependency>
-            <groupId>com.github.sgroschupf</groupId>
-            <artifactId>zkclient</artifactId>
-            <version>0.1</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>log4j</artifactId>
-                    <groupId>log4j</groupId>
-                </exclusion>
-            </exclusions>
-        </dependency>
+
+        <!--dubbo以及zk引入-->
+        <!--<dependency>-->
+            <!--<groupId>org.apache.dubbo</groupId>-->
+            <!--<artifactId>dubbo</artifactId>-->
+        <!--</dependency>-->
+
+        <!--<dependency>-->
+            <!--<groupId>org.apache.dubbo</groupId>-->
+            <!--<artifactId>dubbo-dependencies-zookeeper</artifactId>-->
+            <!--<type>pom</type>-->
+        <!--</dependency>-->
+
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.boot</groupId>-->
+            <!--<artifactId>spring-boot-starter</artifactId>-->
+        <!--</dependency>-->
+
+        <!--<dependency>-->
+            <!--<groupId>org.apache.dubbo</groupId>-->
+            <!--<artifactId>dubbo-spring-boot-starter</artifactId>-->
+            <!--<version>${dubbo.version}</version>-->
+        <!--</dependency>-->
+
+        <!--<dependency>-->
+            <!--<groupId>org.apache.dubbo</groupId>-->
+            <!--<artifactId>dubbo</artifactId>-->
+        <!--</dependency>-->
+
+        <!--<dependency>-->
+            <!--<groupId>org.apache.zookeeper</groupId>-->
+            <!--<artifactId>zookeeper</artifactId>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>org.apache.curator</groupId>-->
+            <!--<artifactId>curator-framework</artifactId>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>org.apache.curator</groupId>-->
+            <!--<artifactId>curator-recipes</artifactId>-->
+        <!--</dependency>-->
     </dependencies>
 
     <build>
@@ -90,7 +109,14 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>com.zhu.free.consumer.ConsumerApplication</mainClass>
+                    <layout>ZIP</layout>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
-
 </project>
