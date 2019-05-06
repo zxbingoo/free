@@ -7,7 +7,7 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class TestController {
 
-    @Reference(interfaceClass = IRegisisterService.class)
+    @Reference
     private IRegisisterService regisisterService;
 
     public void test(){
